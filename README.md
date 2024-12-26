@@ -1,0 +1,2 @@
+# Dashboard
+Lite mode Dashboard
