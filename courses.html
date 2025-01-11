@@ -1,325 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Courses</title>
     <!-- Font Awsome -->
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- css Design -->
-    <link rel="stylesheet" href="css/Dashboard.css">
+    <link rel="stylesheet" href="css/Dashboard.css" />
     <!-- Frame-work -->
-    <link rel="stylesheet" href="css/framework.css">
-</head>
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F1SE8ZVVC1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<body>
+      gtag('config', 'G-F1SE8ZVVC1');
+    </script>
+  </head>
 
+  <body>
     <div class="page d-flex">
-        <div class="sidebar bg-white p-relative">
-            <h2 class="txt-c m-0 p-relative p-10">Osama</h2>
-            <ul>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="index.html">
-                        <i class="fa-solid fa-house fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Dashboard</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="setting.html">
-                        <i class="fa-solid fa-gear fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Setting</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="profile.html">
-                        <i class="fa-regular fa-user fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Profile</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="projects.html">
-                        <i class="fa-solid fa-diagram-project fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Projects</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="active d-flex algn-c fs-14 rad-6 p-10" href="courses.html">
-                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">courses</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="friends.html">
-                        <i class="fa-solid fa-users-rectangle fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Friends</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="files.html">
-                        <i class="fa-regular fa-file fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Files</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-flex algn-c fs-14 rad-6 p-10" href="plans.html">
-                        <i class="fa-regular fa-credit-card fa-fw"></i>
-                        <p class="pl-10 m-0 hide-mobile">Plans</p>
-                    </a>
-                </li>
-            </ul>
+      <div class="sidebar bg-white p-relative">
+        <h2 class="txt-c m-0 p-relative p-10">Osama</h2>
+        <ul>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="index.html">
+              <i class="fa-solid fa-house fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="setting.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Setting</p>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Profile</p>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Projects</p>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex algn-c fs-14 rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">courses</p>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="friends.html">
+              <i class="fa-solid fa-users-rectangle fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Friends</p>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Files</p>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex algn-c fs-14 rad-6 p-10" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <p class="pl-10 m-0 hide-mobile">Plans</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- ******************************************************************************************************** -->
+      <!-- S content head-->
+      <div class="dashbord-content p-20">
+        <div class="head d-flex algn-c between-flex bg-white">
+          <form action="" class="p-relative p-20">
+            <input
+              type="text"
+              name="search"
+              class="rad-10 bg-eee"
+              placeholder="Type Your Keyword"
+            />
+          </form>
+          <div class="left-side d-flex algn-c">
+            <div class="bell p-relative p-10">
+              <i
+                class="fa-regular fa-bell fa-fw p-relative"
+                class="p-relative"
+              ></i>
+            </div>
+            <img src="imgs/avatar.png" alt="" />
+          </div>
         </div>
+        <!-- E content head -->
         <!-- ******************************************************************************************************** -->
-        <!-- S content head-->
-        <div class="dashbord-content p-20">
-            <div class="head d-flex algn-c between-flex bg-white">
-                <form action="" class="p-relative p-20">
-                    <input type="text" name="search" class="rad-10 bg-eee" placeholder="Type Your Keyword">
-                </form>
-                <div class="left-side d-flex algn-c">
-                    <div class="bell p-relative p-10">
-                        <i class="fa-regular fa-bell fa-fw p-relative" class="p-relative"></i>
-                    </div>
-                    <img src="imgs/avatar.png" alt="">
-                </div>
+        <!-- S Courses page -->
+        <h1 class="p-relative p-20">Courses</h1>
+        <div class="courses-page d-grid gap-20">
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-01.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-01.png" alt="user image" class="user-image" />
             </div>
-            <!-- E content head -->
-            <!-- ******************************************************************************************************** -->
-            <!-- S Courses page -->
-            <h1 class="p-relative p-20">Courses</h1>
-            <div class="courses-page d-grid gap-20">
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-01.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-01.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-02.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-02.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-03.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-03.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-04.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-04.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-01.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-01.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-02.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-02.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-03.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-03.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-04.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-04.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-03.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-03.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="course d-flex flex-col p-20 bg-white rad-10">
-                    <div class="top p-relative">
-                        <img src="imgs/course-04.jpg" alt="course image" class="course-image">
-                        <img src="imgs/team-04.png" alt="user image" class="user-image">
-                    </div>
-                    <div class="center p-relative ptb-20 brb-eee">
-                        <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
-                        <p class="c-grey fs-15 m-0 ptb-10">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
-                        <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white">Course Info</a>
-                    </div>
-                    <div class="bottom ptb-10 between-flex">
-                        <div class="left d-flex algn-c c-grey">
-                            <i class="fa-regular fa-user fa-fw"></i>
-                            <p class="p-5 fs-15 m-0 ptb-10">950</p>
-                        </div>
-                        <div class="right d-flex algn-c c-grey">
-                            <i class="fa-solid fa-dollar-sign fa-fw"></i>
-                            <p class="p-5 fs-15 m-0 ptb-10">165</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
             </div>
-            <!-- E Courses page -->
-            <!-- ******************************************************************************************************** -->
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-02.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-02.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-03.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-03.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-04.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-04.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-01.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-01.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-02.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-02.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-03.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-03.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-04.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-04.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-03.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-03.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 c-grey fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course d-flex flex-col p-20 bg-white rad-10">
+            <div class="top p-relative">
+              <img
+                src="imgs/course-04.jpg"
+                alt="course image"
+                class="course-image"
+              />
+              <img src="imgs/team-04.png" alt="user image" class="user-image" />
+            </div>
+            <div class="center p-relative ptb-20 brb-eee">
+              <h4 class="fs-16 f-bold m-0 ptb-10">Mastering Web Design</h4>
+              <p class="c-grey fs-15 m-0 ptb-10">
+                Master The Art Of Web Designing And Mocking, Prototyping And
+                Creating Web Design Architecture
+              </p>
+              <a href="#" class="infobtn fs-14 btn-shape2 bg-blue c-white"
+                >Course Info</a
+              >
+            </div>
+            <div class="bottom ptb-10 between-flex">
+              <div class="left d-flex algn-c c-grey">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <p class="p-5 fs-15 m-0 ptb-10">950</p>
+              </div>
+              <div class="right d-flex algn-c c-grey">
+                <i class="fa-solid fa-dollar-sign fa-fw"></i>
+                <p class="p-5 fs-15 m-0 ptb-10">165</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- E Courses page -->
+        <!-- ******************************************************************************************************** -->
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
